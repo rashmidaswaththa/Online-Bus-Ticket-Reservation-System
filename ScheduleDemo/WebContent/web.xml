@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>JavaLogin</display-name>
+    <session-config>
+        <session-timeout>10</session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <description></description>
+        <display-name>LoginServlet</display-name>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.schedule.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <description></description>
+        <display-name>ScheduleInsert</display-name>
+        <servlet-name>ScheduleInsert</servlet-name>
+        <servlet-class>com.schedule.servlet.ScheduleInsert</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ScheduleInsert</servlet-name>
+        <url-pattern>/Insert</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <description></description>
+        <display-name>Scheduleupdate</display-name>
+        <servlet-name>Scheduleupdate</servlet-name>
+        <servlet-class>com.schedule.servlet.Scheduleupdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Scheduleupdate</servlet-name>
+        <url-pattern>/Update</url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+        <description></description>
+        <display-name>ScheduleDelete</display-name>
+        <servlet-name>ScheduleDelete</servlet-name>
+        <servlet-class>com.schedule.servlet.ScheduleDelete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ScheduleDelete</servlet-name>
+        <url-pattern>/Delete</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <description></description>
+        <display-name>LogoutServlet</display-name>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.schedule.servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+</web-app>
