@@ -9,7 +9,7 @@
      🔹IDE - Eclipse<br/>
      🔹Database - MYSQL Workbench<br/>
      
-My part is Bus Scheduling in this project.(This scope is selected only for the project purpose)<br/>
-    🔹Admin can insert new bus schedule<br/>
-    🔹Admin can update and delete bus schedule if he want.<br/>
+Bus scheduling is how I contribute to this project. (This scope was simply chosen for the project's objectives.)<br/>
+    🔹The Admin can insert new bus schedule<br/>
+    🔹The Admin can update and delete the bus schedule if he wants.<br/>
     
